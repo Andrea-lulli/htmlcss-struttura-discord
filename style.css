@@ -92,6 +92,7 @@ margin-top: 20px;
     background-color: grey;
     display: flex;
     justify-content: space-between;
+    border: 1px solid yellow;
 }
 
 .footer-column-orange {
@@ -111,6 +112,7 @@ margin-top: 20px;
     height: 100px;
     display: flex;
     justify-content: space-between;
+    border: 1px solid rgb(15, 15, 3);
 }
 
 .footer-dx, .footer-sx{
