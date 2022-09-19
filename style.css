@@ -45,24 +45,20 @@ nav{
 }
 .box{
     height: 210px;
-    background-color: brown;
+    background-color: rgb(76, 218, 100);
     display: flex;
     justify-content: space-between;
     border: 1px solid yellow;
     
 }
 
-.box-dx{
-    flex-basis: 45%;
-    background-color: rgb(51, 14, 151);
-    align-items: stretch;
+.box-dx, .box-sx{
+    flex-basis: 48%;
+    background-color: rgb(51, 14, 151);   
 }
 
 .box-sx{
-    flex-basis: 45%;
-    background-color: rgb(28, 82, 99);
-    align-items: stretch;
-    
+    background-color: rgb(28, 82, 99);    
 }
 
 .box-reverse{
@@ -106,8 +102,7 @@ margin-top: 20px;
 }
 
 
-.footer-bottom
-{
+.footer-bottom{
     background-color:red ;
     height: 100px;
     display: flex;
@@ -115,7 +110,7 @@ margin-top: 20px;
     border: 1px solid rgb(15, 15, 3);
 }
 
-.footer-dx, .footer-sx{
+.footer-bt{
     flex-basis: 20%;
     justify-content: space-between;
     background-color: yellow;
