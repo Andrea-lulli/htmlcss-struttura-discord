@@ -13,13 +13,14 @@ header{
 .conteiner{
     margin: auto;
     width: 80%;
-    display: flex;
+    
 }
 
 nav{ 
     height: 50px;
     background-color: gray;
     justify-content: space-between;
+    display: flex;
 }
 
 .nav-lt{
@@ -39,6 +40,43 @@ nav{
     width: 50%;
     background-color: orange;
     height: 250px;
-
-
 }
+.box{
+    height: 210px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid yellow;
+    
+}
+
+.box-dx{
+    flex-basis: 45%;
+    background-color: rgb(14, 14, 13);
+    align-items: stretch;
+}
+
+.box-sx{
+    flex-basis: 45%;
+    background-color: rgb(28, 82, 99);
+    align-items: stretch;
+    
+}
+
+.four{
+flex-direction: column;
+}
+
+.box-column{
+    flex-basis: 30%;
+    justify-content: space-between;    
+}
+
+.top, .botton{
+    background-color: rgb(12, 161, 62);
+}
+
+.center{
+    background-color: blue;
+}
+
