@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: auto;
+    height: 300px;
+    background-color: aqua;
+}
+
+.conteiner{
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+nav{ 
+    height: 50px;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+.nav-lt{
+    background-color: red;
+    align-items: stretch;
+    flex-basis: 15%;
+}
+
+.nav-cen{
+    flex-basis: 50%;
+    background-color: rgb(14, 14, 13);
+    align-items: stretch;
+}
+
+.titolo{
+    margin: auto;
+    width: 50%;
+    background-color: orange;
+    height: 250px;
+
+
+}
