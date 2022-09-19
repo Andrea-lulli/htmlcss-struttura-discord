@@ -66,8 +66,13 @@ nav{
 }
 
 .box-cl{
-flex-direction: column;
-margin-top: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 300px;
+    background-color: rgb(76, 218, 100);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid yellow;
 }
 
 .box-column{
