@@ -62,7 +62,7 @@ nav{
     flex-basis: 58%;    
 }
 
-.box-reverse{
+.box-order{
     order: 2;
 }
 
@@ -106,7 +106,6 @@ nav{
     flex-basis: 15%;
     background-color: rgb(16, 109, 31);
 }
-
 
 .footer-bottom{
     background-color:red ;
